@@ -129,4 +129,14 @@ class FileLoaderCommand extends Command
         $translations = $this->files->getRequire($file);
         $this->translationRepository->loadArray($translations, $locale, $group, $namespace, $locale == $this->defaultLocale);
     }
+
+    /**
+     *  Execute the console command in Laravel 5.5.
+     *
+     *  @return void
+     */
+    public function handle()
+    {
+        $this->fire();
+    }
 }
