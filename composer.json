@@ -1,6 +1,6 @@
 {
-    "name": "waavi/translation",
-    "description": "A Translation package for Laravel 5 with database and cache support",
+    "name": "adiesel82/laravel-translation",
+    "description": "Fork of waavi/translation package with fixes. A Translation package for Laravel 5 with database and cache support",
     "keywords": [
         "waavi",
         "laravel-translator",
